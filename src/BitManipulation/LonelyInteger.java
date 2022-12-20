@@ -1,9 +1,6 @@
-package com.company;
+package BitManipulation;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Scanner;
 
 public class LonelyInteger {
     public static int lonelyinteger(List<Integer> a) {

@@ -1,4 +1,4 @@
-package com.company;
+package BitManipulation;
 
 public class FindFirstSetBit {
     public static int getFirstSetBit(int n){

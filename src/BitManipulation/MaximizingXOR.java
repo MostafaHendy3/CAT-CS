@@ -1,4 +1,4 @@
-package com.company;
+package BitManipulation;
 
 public class MaximizingXOR {
     public static int maximizingXor(int l, int r) {

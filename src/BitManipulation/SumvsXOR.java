@@ -1,4 +1,4 @@
-package com.company;
+package BitManipulation;
 
 public class SumvsXOR {
     public static long sumXor(long n) {

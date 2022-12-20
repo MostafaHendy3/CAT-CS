@@ -1,35 +1,12 @@
 package com.company;
 
-import java.util.Scanner;
-
-import static com.company.FindPositionOfSetBit.findPosition;
+import static BitManipulation.FindPositionOfSetBit.findPosition;
+import static BitManipulation.SumvsXOR.sumXor;
 
 public class Main {
     public static void main(String[] args) {
-        // System.out.println(Flippingbits.flippingBits(1));
         System.out.println(findPosition(8));
-//        Scanner scanner = new Scanner(System.in);
-//        int T = scanner.nextInt();
-//        int res = Integer.MIN_VALUE;
-//
-//        for (int i = 0; i < T; i++) {
-//            int n = scanner.nextInt();
-//            int[] a = new int[n];
-//            int[] b = new int[n];
-//            int[] c = new int[n];
-//            for (int j = 0; j < n; j++) {
-//                a[j] = scanner.nextInt();
-//                b[j]= scanner.nextInt();
-//                c[j] = a[j]&b[j];
-//            }
-//            for (int j = 0; j < n; j++) {
-//                if(res<c[j]){
-//                    res = c[j];
-//                }
-//            }
-//            System.out.println(res);
-//            res = Integer.MIN_VALUE;
-//        }
+        System.out.println(sumXor(8));
     }
     static int isBitSet(int N){
         if(N==0){

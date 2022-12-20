@@ -1,4 +1,4 @@
-package com.company;
+package BitManipulation;
 
 public class Flippingbits {
     public static long flippingBits(long n) {

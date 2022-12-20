@@ -1,7 +1,7 @@
-package com.company;
+package BitManipulation;
 
 public class CheckSetBits {
-    static int isBitSet(int N){
+    public static int isBitSet(int N){
         if(N==0){
             return 0;
         }
