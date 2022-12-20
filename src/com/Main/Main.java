@@ -1,4 +1,4 @@
-package com.company;
+package com.Main;
 
 import static BitManipulation.FindPositionOfSetBit.findPosition;
 import static BitManipulation.SumvsXOR.sumXor;
