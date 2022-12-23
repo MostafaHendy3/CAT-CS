@@ -1,12 +1,11 @@
 package com.Main;
 
-import static BitManipulation.FindPositionOfSetBit.findPosition;
-import static BitManipulation.SumvsXOR.sumXor;
+import static BitManipulation.BitwiseANDofNumbersRange.rangeBitwiseAnd;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(findPosition(8));
-        System.out.println(sumXor(8));
+        //System.out.println(findPosition(8));
+        System.out.println(rangeBitwiseAnd(1,2147483647));
     }
     static int isBitSet(int N){
         if(N==0){
@@ -87,4 +86,6 @@ public class Main {
     public static int toggleBit(int n, int i) {
         return n ^ (1 << i);
     }
+    ///notes
+    //https://leetcode.com/problems/sum-of-two-integers/solutions/84278/a-summary-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently/
 }

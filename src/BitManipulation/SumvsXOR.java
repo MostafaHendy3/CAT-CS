@@ -1,6 +1,7 @@
 package BitManipulation;
 
 public class SumvsXOR {
+    //NOT S
     public static long sumXor(long n) {
         int counts =0;
         String s = Long.toBinaryString(n);
